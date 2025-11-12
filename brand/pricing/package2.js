@@ -161,13 +161,22 @@ const data = {
         },
         {
           name: "User management and Access control",
-          description: "Control who can access your brand world",
+          description:
+            "Control who can access your brand world, what they can see, and what they can attend. Personalize each user's experience.",
         },
-        { name: "Meetings", description: "Virtual meeting capabilities" },
-        { name: "Live streaming", description: "Broadcast live events" },
+        {
+          name: "Meetings",
+          description: "Host virtual meetings inside a 3D environment.",
+        },
+        {
+          name: "Live streaming",
+          description:
+            "Host and broadcast live events, webinars, masterclasses, podcasts, and keynotes.",
+        },
         {
           name: "Interactions",
-          description: "Enhanced user interaction tools",
+          description:
+            "Enhanced user engagement tools including quizzes, polls, surveys, Q&A sessions, treasure hunts, and more.",
         },
       ],
     },
@@ -266,10 +275,6 @@ const data = {
         {
           name: "Event wise user management",
           description: "Manage attendees per event",
-        },
-        {
-          name: "Event wise team management",
-          description: "Assign team members to events",
         },
         {
           name: "Team Roles Management",
