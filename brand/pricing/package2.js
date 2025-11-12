@@ -2,10 +2,10 @@
 const data = {
   packages: [
     {
-      title: "Showcase Tier",
+      title: "Starter",
       description:
         "Get started and showcase your brand world in an interactive, immersive 3D space.",
-      cost: "FREE",
+      cost: "Free",
       features: [
         {
           name: "500 GB storage",
@@ -37,55 +37,17 @@ const data = {
           description: "Basic visitor tracking and analytics",
         },
       ],
-      topupOptions: [],
-    },
-    {
-      title: "Starter / Production Ready",
-      description:
-        "Great for small businesses ready to transform their websites into immersive 3D brand worlds.",
-      cost: "$50 / Month",
-      features: [
-        {
-          name: "1GB storage",
-          description: "Storage space for your brand world assets",
-        },
-        {
-          name: "30 GB Egress Bandwidth",
-          description: "Monthly data transfer allowance",
-        },
-        {
-          name: "gethertech.io domain",
-          description: "Your brand world on our subdomain",
-        },
-        {
-          name: "Hosted Brand world",
-          description: "Fully hosted 3D environment",
-        },
-        {
-          name: "DIY Builder, and Content management",
-          description:
-            "Easy-to-use builder for customizing your 3d world and CMS",
-        },
-        {
-          name: "3D Template Library",
-          description: "Access to pre-built 3D templates",
-        },
-        {
-          name: "Google analytics",
-          description: "Basic visitor tracking and analytics",
-        },
-        {
-          name: "Custom Domain white labeling",
-          description: "Use your own domain name",
-        },
+      topupOptions: [
+        "Custom Domain white labeling",
+        "User Interaction Pack",
+        "Commerce Pack",
       ],
-      topupOptions: ["User Interaction Pack", "Commerce Pack | $200"],
     },
     {
       title: "Growth / Community Tier",
       description:
         "Ideal for businesses looking to engage customers more effectively through training, events, and integrated eCommerce.",
-      cost: "$799 / Month",
+      cost: "$399 / Month",
       features: [
         {
           name: "10 GB Storage",
@@ -125,17 +87,13 @@ const data = {
           description: "Team collaboration tools",
         },
       ],
-      topupOptions: [
-        "User Interaction Pack",
-        "Commerce Pack | $200",
-        "LMS Pack",
-      ],
+      topupOptions: ["User Interaction Pack", "Commerce Pack", "LMS Pack"],
     },
     {
-      title: "Business / OEM Tier",
+      title: "Business ",
       description:
         "For powerful businesses needing complete customer engagement tools, including campaigns, events, and dedicated workspace teams.",
-      cost: "$1499 / Month",
+      cost: "$999 / Month",
       features: [
         {
           name: "30 GB Storage",
@@ -191,8 +149,18 @@ const data = {
   ],
   topupPacks: [
     {
+      title: "Custom Domain white labeling",
+      cost: "+ $50 / Month",
+      features: [
+        {
+          name: "Custom Domain white labeling",
+          description: "Use your own domain name for branding",
+        },
+      ],
+    },
+    {
       title: "User Interaction Pack:",
-      cost: "$199 / Month",
+      cost: "+ $199 / Month",
       features: [
         {
           name: "20,000 Streaming Minutes",
@@ -212,7 +180,7 @@ const data = {
     },
     {
       title: "Marketing Pack:",
-      cost: "$499 / Month",
+      cost: "+ $499 / Month",
       features: [
         { name: "UTM tracking", description: "Track campaign performance" },
         {
@@ -229,7 +197,7 @@ const data = {
     },
     {
       title: "Commerce Pack",
-      cost: "$499 / Month",
+      cost: "+ $499 / Month",
       features: [
         {
           name: "E-commerce",
@@ -249,7 +217,7 @@ const data = {
     },
     {
       title: "LMS Pack:",
-      cost: "$799 / Month",
+      cost: "+ $799 / Month",
       features: [
         {
           name: "Learning Management System (LMS)",
@@ -267,7 +235,7 @@ const data = {
     },
     {
       title: "Enterprise",
-      cost: "$799 / Month",
+      cost: "+ $799 / Month",
       features: [
         {
           name: "Workspace white labeling",
@@ -290,7 +258,7 @@ const data = {
     },
     {
       title: "Event Management",
-      cost: "$1999 / Month",
+      cost: "+ $1999 / Month",
       features: [
         { name: "Event world", description: "Dedicated space for events" },
         {
