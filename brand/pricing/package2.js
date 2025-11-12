@@ -3,8 +3,7 @@ const data = {
   packages: [
     {
       title: "Starter",
-      description:
-        "Get started and showcase your brand world in an interactive, immersive 3D space.",
+      description: "Launch your interactive brand world in minutes.",
       cost: "Free",
       features: [
         {
@@ -39,14 +38,13 @@ const data = {
       ],
       topupOptions: [
         "Custom Domain white labeling",
-        "User Interaction Pack",
-        "Commerce Pack",
+        "Engage Pack",
+        "Sell Pack",
       ],
     },
     {
       title: "Growth / Community Tier",
-      description:
-        "Ideal for businesses looking to engage customers more effectively through training, events, and integrated eCommerce.",
+      description: "Engage customers with events, learning, and commerce.",
       cost: "$399 / Month",
       features: [
         {
@@ -87,12 +85,11 @@ const data = {
           description: "Team collaboration tools",
         },
       ],
-      topupOptions: ["User Interaction Pack", "Commerce Pack", "LMS Pack"],
+      topupOptions: ["Engage Pack", "Sell Pack", "Learn Pack"],
     },
     {
       title: "Business ",
-      description:
-        "For powerful businesses needing complete customer engagement tools, including campaigns, events, and dedicated workspace teams.",
+      description: "Run a full-scale customer ecosystem—powered by Gether.",
       cost: "$999 / Month",
       features: [
         {
@@ -134,15 +131,11 @@ const data = {
         },
       ],
       topupOptions: [
-        "User Interaction Pack",
-        "Commerce Pack | $200",
-        "LMS Pack",
-        "Enterprise",
-        "User Interaction Pack",
-        "Commerce Pack",
-        "LMS Pack",
-        "Marketing Pack:",
-        "Event Management",
+        "Engage Pack",
+        "Sell Pack",
+        "Learn Pack",
+        "Reach Pack",
+        "Event Pro",
         "Enterprise",
       ],
     },
@@ -159,7 +152,7 @@ const data = {
       ],
     },
     {
-      title: "User Interaction Pack:",
+      title: "Engage Pack:",
       cost: "+ $199 / Month",
       features: [
         {
@@ -179,7 +172,7 @@ const data = {
       ],
     },
     {
-      title: "Marketing Pack:",
+      title: "Reach Pack:",
       cost: "+ $499 / Month",
       features: [
         { name: "UTM tracking", description: "Track campaign performance" },
@@ -196,7 +189,7 @@ const data = {
       ],
     },
     {
-      title: "Commerce Pack",
+      title: "Sell Pack",
       cost: "+ $499 / Month",
       features: [
         {
@@ -216,7 +209,7 @@ const data = {
       ],
     },
     {
-      title: "LMS Pack:",
+      title: "Learn Pack:",
       cost: "+ $799 / Month",
       features: [
         {
@@ -257,7 +250,7 @@ const data = {
       ],
     },
     {
-      title: "Event Management",
+      title: "Event Pro",
       cost: "+ $1999 / Month",
       features: [
         { name: "Event world", description: "Dedicated space for events" },
