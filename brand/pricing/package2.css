@@ -134,3 +134,18 @@ body {
 h1 {
   text-align: center;
 }
+
+#descriptionWrapper {
+  display: flex;
+  justify-content: center;
+  padding: 32px;
+  margin-top: 100px;
+}
+
+#descriptionWrapper #markdown-content {
+  max-width: 800px;
+}
+
+#markdown-content h2 {
+  margin-top: 32px;
+}

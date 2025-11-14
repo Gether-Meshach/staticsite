@@ -39,7 +39,7 @@ const data = {
       topupOptions: [
         "Custom Domain white labeling",
         "Engage Pack",
-        "Sell Pack",
+        "Commerce Pack",
       ],
     },
     {
@@ -73,7 +73,7 @@ const data = {
           description: "Access to pre-built 3D templates",
         },
         {
-          name: "Advanced Analytics",
+          name: "Platform Analytics",
           description: "Detailed insights and reporting",
         },
         {
@@ -85,7 +85,7 @@ const data = {
           description: "Team collaboration tools",
         },
       ],
-      topupOptions: ["Engage Pack", "Sell Pack", "Learn Pack"],
+      topupOptions: ["Engage Pack", "Commerce Pack", "Learn Pack"],
     },
     {
       title: "Business ",
@@ -118,7 +118,7 @@ const data = {
           description: "Access to pre-built 3D templates",
         },
         {
-          name: "Analytics (google analytics)",
+          name: "Platform Analytics",
           description: "Comprehensive analytics platform",
         },
         {
@@ -132,11 +132,11 @@ const data = {
       ],
       topupOptions: [
         "Engage Pack",
-        "Sell Pack",
+        "Commerce Pack",
         "Learn Pack",
         "Reach Pack",
         "Event Pro",
-        "Enterprise",
+        "Enterprise Integration Pack",
       ],
     },
   ],
@@ -198,7 +198,7 @@ const data = {
       ],
     },
     {
-      title: "Sell Pack",
+      title: "Commerce Pack",
       cost: "+ $499 / Month",
       features: [
         {
@@ -236,7 +236,7 @@ const data = {
       ],
     },
     {
-      title: "Enterprise",
+      title: "Enterprise Integration Pack",
       cost: "+ $799 / Month",
       features: [
         {
